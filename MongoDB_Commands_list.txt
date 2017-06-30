@@ -1,0 +1,6 @@
+show dbs
+use dbname/*It will switch to your db or if the db doesnot have that name it will create new db*/
+show collections /*To show the tables in your database-In mongo tables are treated as collections*/
+db.collectionname.find()/*It will search for records in your table*/
+
+You cannot see your database using show dbs command until and unless you have one record in your database
