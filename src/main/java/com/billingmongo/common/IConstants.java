@@ -1,4 +1,4 @@
-package com.tmobile.poc.common;
+package com.billingmongo.common;
 
 public interface IConstants {
 

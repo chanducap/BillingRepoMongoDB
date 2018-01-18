@@ -1,4 +1,4 @@
-package com.tmobile.poc.controller;
+package com.billingmongo.controller;
 
 import java.net.HttpURLConnection;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tmobile.poc.service.BillingAccountService;
-import com.tmobile.poc.vo.AccountBalanceVO;
-import com.tmobile.poc.vo.BillingAccountSummaryVO;
+import com.billingmongo.service.BillingAccountService;
+import com.billingmongo.vo.AccountBalanceVO;
+import com.billingmongo.vo.BillingAccountSummaryVO;
 
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

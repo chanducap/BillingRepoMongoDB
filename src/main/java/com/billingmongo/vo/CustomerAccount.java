@@ -1,4 +1,4 @@
-package com.tmobile.poc.vo;
+package com.billingmongo.vo;
 
 import java.io.Serializable;
 

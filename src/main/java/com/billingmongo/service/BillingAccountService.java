@@ -1,4 +1,4 @@
-package com.tmobile.poc.service;
+package com.billingmongo.service;
 
 import java.util.logging.Logger;
 
@@ -8,10 +8,10 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.tmobile.poc.common.IConstants;
-import com.tmobile.poc.dao.BillingRepositoryDAO;
-import com.tmobile.poc.vo.BillingAccountSummaryVO;
-import com.tmobile.poc.vo.CustomerVO;
+import com.billingmongo.common.IConstants;
+import com.billingmongo.dao.BillingRepositoryDAO;
+import com.billingmongo.vo.BillingAccountSummaryVO;
+import com.billingmongo.vo.CustomerVO;
 
 @Service
 public class BillingAccountService {

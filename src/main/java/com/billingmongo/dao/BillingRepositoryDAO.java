@@ -1,4 +1,4 @@
-package com.tmobile.poc.dao;
+package com.billingmongo.dao;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.tmobile.poc.vo.BillingAccountSummaryVO;
+import com.billingmongo.vo.BillingAccountSummaryVO;
 
 public interface BillingRepositoryDAO extends MongoRepository<BillingAccountSummaryVO, Integer> {
 
